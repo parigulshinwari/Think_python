@@ -1,0 +1,119 @@
+import turtle
+#making line
+
+#bob = turtle.Turtle()
+
+#bob . forward (100)
+
+#bob . left (45)
+
+#bob . forward (100)
+
+#bob.forward (100)
+
+#bob.left (45)
+
+#bob.forward (100)
+
+# colouring square + making multiple connected squares
+
+bob = turtle.Turtle()
+
+bob.color("green", "cyan")
+
+bob.begin_fill()
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+bob.end_fill()
+
+
+#making two discoconnected squares
+
+bob.penup()
+bob.forwad(150)
+bob.pendown()
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+bob . left (90)
+
+bob . forward (100)
+
+#making flower
+
+#making flower or star
+
+# we will use for loop 
+
+import turtle
+
+bob = turtle.Turtle()
+bob.color("yellow", "green")
+bob.speed(10)
+
+bob.begin_fill()
+for i in range (100):
+    bob.forward(100)
+    bob.left(135)
+
+bob.end_fill()
+turtle.done()
+
+
+
+
+
+
+
+
+turtle.done()   #ths wil open the graphics window
+
+
+
+
+
+
+
+
+
+
+
+
+
+
